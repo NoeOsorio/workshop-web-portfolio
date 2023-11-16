@@ -22,7 +22,7 @@ Welcome to our Web Development Workshop! This project repository is the starting
 
 Before we begin coding, make sure you have cloned this repository to your local machine. Navigate to the folder where you want to store the project.
 ```bash
-git clone https://github.com/your-username/workshop-portfolio-project.git
+git clone https://gitlab.com/osnoe/workshop-web-portfolio
 cd workshop-portfolio-project
 ```
 
