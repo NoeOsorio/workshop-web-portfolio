@@ -26,6 +26,13 @@ git clone https://github.com/your-username/workshop-portfolio-project.git
 cd workshop-portfolio-project
 ```
 
+Once you have your repo on your machine, please create a branch with your name, there is where all your progress will be checked.
+Use the name as *name-lastname*
+
+Example:
+```bash
+git switch -c <noe-osorio>
+```
 ### Install Dependencies
 
 To install the necessary npm packages, run the appropriate command in the root directory of your project.
@@ -38,6 +45,17 @@ To start the development server and run your application, execute the appropriat
 ```bash
 npm start
 ```
+
+## Instructions
+Based on UI (UI.png) you have to build your Portfolio web app.
+
+### Acceptance Criteria
+
+- App is built in React
+- Style is at least 80% similar to UI
+- If you want to modify colors, please specify them in a text file
+- You can use any UI library like Material UI, AntD, Tailwind or simple CSS
+- Every app should be shown on its own branch
 
 ## Development Workflow
 
@@ -52,17 +70,19 @@ Remember to commit your changes frequently and push them to your GitHub reposito
 ```bash
 git add .
 git commit -m "Your descriptive commit message"
-git push origin main
+git push origin <your-branch>
 ```
 
 ## Additional Resources
 
-- React Official Documentation
-- CSS Tricks - A Complete Guide to Flexbox
-- MDN Web Docs - CSS
+- [React Official Documentation](https://react.dev/learn)
+- [CSS Tricks - A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+- [MDN Web Docs - CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
 ## Support
 
 If you encounter any issues or have questions, please refer to the workshop instructors or your fellow students. You can also open an issue in this repository for support.
+
+> Contact email: osorionoe@gmail.com
 
 Good luck and happy coding!
